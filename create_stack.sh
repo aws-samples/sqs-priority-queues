@@ -1,0 +1,1 @@
+aws cloudformation create-stack --stack-name sqs-priority-queues --template-body file://template/sqs_priority_queues.yaml --capabilities CAPABILITY_NAMED_IAM
